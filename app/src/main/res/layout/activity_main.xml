@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/boton_decision"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:src="@drawable/decision"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_variable"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/variable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_inicio"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="124dp"
+        android:src="@drawable/inicio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_mostrar"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/mostrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_rectangulo"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="244dp"
+        android:src="@drawable/rectangulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_simple"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/decisionsimple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <TextView
+            android:id="@+id/diagrama_flujo_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:text="Diagrama de Flujo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/diagrama_flujo_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="498dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/boton_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver resultado" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
